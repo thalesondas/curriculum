@@ -6,7 +6,7 @@ const Objetivo = () => {
             <Container className="d-flex justify-content-start align-items-start">
                 <h3>Objetivo</h3>
             </Container>
-            <hr />
+            <hr className="me-4" />
             <p style={{ lineHeight: '1.3rem'}}>
                 Aplicar minhas habilidades em desenvolvimento de software em uma posição que permita contribuir para o sucesso da empresa. Busco oportunidades como:
             </p>

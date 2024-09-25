@@ -16,10 +16,12 @@
   background-color: var(--cor-background);
   min-height: 100vh;
   width: 785px !important;
+  box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.2)
 }
 
 h1{
-  font-weight: bold;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 h2{
@@ -38,7 +40,7 @@ h3{
 hr{
   border: 2px solid var(--cor-primaria) !important;
   opacity: 1 !important;
-  width: 100%;
+  width: 96%;
   margin-top: -6px !important;
 }
 
@@ -53,4 +55,19 @@ li{
 
 .letra-cinza{
   color: #8491a0;
+}
+
+.sem-bolinha{
+  list-style-type: none;
+}
+
+.custom-link{
+  text-decoration: none;
+  color: var(--cor-primaria);
+}
+
+.img-svg{
+  margin-right: 6px;
+  width: 45px;
+  filter: invert(15%) sepia(31%) saturate(1173%) hue-rotate(150deg) brightness(91%) contrast(85%);
 }
