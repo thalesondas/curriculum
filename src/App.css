@@ -17,3 +17,17 @@
   min-height: 100vh;
   width: 785px !important;
 }
+
+h3{
+  font-size: 0.9rem !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold  !important;  
+}
+
+hr{
+  border: 2px solid var(--cor-primaria) !important;
+  opacity: 1 !important;
+  width: 100%;
+  margin-top: -6px !important;
+}
