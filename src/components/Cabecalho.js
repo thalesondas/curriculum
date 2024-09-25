@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import '../assets/Cabecalho.css'
 
 const Cabecalho = () => {
     return(
