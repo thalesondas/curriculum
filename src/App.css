@@ -21,8 +21,8 @@
 h3{
   font-size: 0.9rem !important;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: bold  !important;  
+  letter-spacing: 2.5px;
+  font-weight: 1000 !important;
 }
 
 hr{
@@ -30,4 +30,9 @@ hr{
   opacity: 1 !important;
   width: 100%;
   margin-top: -6px !important;
+}
+
+p{
+  text-align: center;
+  font-size: 1.1rem;
 }
