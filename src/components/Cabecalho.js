@@ -1,28 +1,29 @@
 import { Col, Container, Row } from "react-bootstrap";
+import '../assets/Cabecalho.css'
 
 const Cabecalho = () => {
     return(
-        <>
-            <h1>Thales Alfredo Borsatto Ondas</h1>
-            <h2>Desenvolvedor Full Stack</h2>
+        <Container className="d-flex flex-column justify-content-center align-items-center">
+            <h1 className="mt-4">Thales Alfredo Borsatto Ondas</h1>
+            <h2 className="mb-5">DESENVOLVEDOR FULL STACK</h2>
             <Container className="d-flex">
-            <Col>
+            <Col className="d-flex justify-content-center">
                 <ul>
-                <li>(19) 97125-0294</li>
-                <li>thalesondas0@gmail.com</li>
+                    <li className="mb-3">(19) 97125-0294</li>
+                    <li>thalesondas0@gmail.com</li>
                 </ul>
             </Col>
-            <Col>
+            <Col className="d-flex justify-content-center">
                 <ul>
-                <li>linkedin.com/in/thales-ondas</li>
-                <li>github.com/thalesondas</li>
+                    <li className="mb-3">linkedin.com/in/thales-ondas</li>
+                    <li>github.com/thalesondas</li>
                 </ul>
             </Col>
             </Container>
             <Row>
-            <li>Link do Site</li>
+                <li>Link do Site</li>
             </Row>
-        </>
+        </Container>
     )
 }
 
