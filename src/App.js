@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { Container } from "react-bootstrap"
+import LadoDireito from "./components/LadoDireito";
+import LadoEsquerdo from "./components/LadoEsquerdo";
 import Cabecalho from "./components/Cabecalho";
 import Objetivo from "./components/Objetivo";
 import Resumo from "./components/Resumo";
@@ -16,15 +18,21 @@ function App() {
   }, []);
 
   return (
-    <Container className="page d-flex justify-content-center align-items-center">
-      <Container className="inner-page">
-        <Cabecalho />
-        <Objetivo />
-        <Resumo />
-        <Competencias />
-        <Certificados />
-        <Formacao />
-      </Container>
+    <Container className="page d-flex justify-content-between align-items center">
+        <div style={{ width: '22%' }}>
+          <LadoEsquerdo />
+        </div>
+        <div className="inner-page">
+          <Cabecalho />
+          <Objetivo />
+          <Resumo />
+          <Competencias />
+          <Certificados />
+          <Formacao />
+        </div>
+        <div style={{ width: '22%' }}>
+          <LadoDireito />
+        </div>
     </Container>
   );
 }
