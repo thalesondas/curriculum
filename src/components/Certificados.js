@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 const Certificados = () => {
     return(
         <Container className="mt-1">
-            <Container className="d-flex flex-column justify-content-start align-items-start">
+            <Container className="ms-3 d-flex flex-column justify-content-start align-items-start">
                 <h3 className="ms-3">Certificados</h3>
                 <hr />
             </Container>

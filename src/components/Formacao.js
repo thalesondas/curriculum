@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 const Formacao = () => {
     return(
         <Container className="mb-4">
-            <Container className="d-flex flex-column">
+            <Container className="ms-3 d-flex flex-column">
                 <h3 className="ms-3">Formação Acadêmica</h3>
                 <hr />
             </Container>

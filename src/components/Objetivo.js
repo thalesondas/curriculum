@@ -3,7 +3,7 @@ import { Col, Container } from "react-bootstrap";
 const Objetivo = () => {
     return(
         <Container className="mt-3 d-flex flex-column align-items-center">
-            <Container className="d-flex flex-column justify-content-start align-items-start">
+            <Container className="ms-3 d-flex flex-column justify-content-start align-items-start">
                 <h3 className="ms-3">Objetivo</h3>
                 <hr />
             </Container>

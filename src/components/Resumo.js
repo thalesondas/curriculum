@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 const Resumo = () => {
     return(
         <Container>
-            <Container className="mt-3 d-flex flex-column align-items-start">
+            <Container className="ms-3 mt-3 d-flex flex-column align-items-start">
                 <h3 className="ms-3">Resumo</h3>
                 <hr />
             </Container>
