@@ -3,10 +3,10 @@ import { Col, Container } from "react-bootstrap";
 const Competencias = () => {
     return(
         <Container className="mt-1">
-            <Container className="d-flex justify-content-start">
-                <h3>Principais Competências / Idiomas</h3>
+            <Container className="d-flex flex-column justify-content-start">
+                <h3 className="ms-3">Principais Competências / Idiomas</h3>
+                <hr />
             </Container>
-            <hr />
             <Container className="d-flex">
             <Col xs={3}>
                 <ul>

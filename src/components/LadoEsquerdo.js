@@ -7,7 +7,7 @@ const LadoEsquerdo = () => {
                 Este "site" foi feito sem responsividade de propósito para simular o currículo em PDF, não funcionará corretamente em telas menores.
             </p>
             <Button className="btn-custom mt-3" href="/CV.pdf" download="Curriculum Vitae - Thales Ondas">
-                Download do PDF do Currículo
+                Download do PDF do currículo
             </Button>
         </Container>
     )
