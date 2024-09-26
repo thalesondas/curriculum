@@ -7,7 +7,7 @@ const Resumo = () => {
                 <h3>Resumo</h3>
             </Container>
             <hr />
-            <p style={{ whiteSpace: 'pre-wrap', lineHeight: '1.4rem' }}>
+            <p className="text-center" style={{ whiteSpace: 'pre-wrap', lineHeight: '1.4rem' }}>
             Estou me formando em Análise e Desenvolvimento de Sistemas pela UTFPR de<br/>
             Cornélio Procópio, onde adquiri conhecimento em várias linguagens de<br/>
             programação, bancos de dados, bibliotecas e frameworks, etc. Além de aprimorar<br/>

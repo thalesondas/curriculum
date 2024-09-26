@@ -8,7 +8,7 @@ const Competencias = () => {
             </Container>
             <hr />
             <Container className="d-flex">
-            <Col>
+            <Col xs={3}>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -16,17 +16,17 @@ const Competencias = () => {
                     <li>React.js</li>
                 </ul>
             </Col>
-            <Col style={{ transform: 'translateX(-22px)' }}>
+            <Col xs={5}>
                 <ul>
                     <li>Node.js</li>
                     <li>PostgreSQL</li>
                     <li>MongoDB</li>
-                    <li style={{ whiteSpace: 'nowrap' }}>Versionamento Git/GitHub</li>
+                    <li>Versionamento Git/GitHub</li>
                 </ul>
             </Col>
-            <Col>
+            <Col xs={4}>
                 <ul>
-                    <li>React Bootstrap</li>
+                    <li>Bootstrap</li>
                     <li>Python</li>
                     <li>Java</li>
                     <li>Inglês Avançado</li>

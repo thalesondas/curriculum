@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Container } from "react-bootstrap"
 import Cabecalho from "./components/Cabecalho";
 import Objetivo from "./components/Objetivo";
@@ -9,6 +10,11 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Curriculum Vitae - Thales Ondas';
+  }, []);
+
   return (
     <Container className="page d-flex justify-content-center align-items-center">
       <Container className="inner-page">

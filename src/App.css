@@ -1,6 +1,6 @@
 :root{
   --cor-primaria: #173945;
-  --cor-background: rgb(237, 237, 237);
+  --cor-background: white;
 }
 
 .page{
@@ -44,11 +44,7 @@ hr{
   margin-top: -6px !important;
 }
 
-p{
-  text-align: center;
-  font-size: 1.1rem;
-}
-
+p,
 li{
   font-size: 1.1rem;
 }

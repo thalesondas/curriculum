@@ -7,7 +7,7 @@ const Objetivo = () => {
                 <h3>Objetivo</h3>
             </Container>
             <hr className="me-4" />
-            <p style={{ lineHeight: '1.3rem'}}>
+            <p className="text-center" style={{ lineHeight: '1.3rem'}}>
                 Aplicar minhas habilidades em desenvolvimento de software em uma posição que permita contribuir para o sucesso da empresa. Busco oportunidades como:
             </p>
             <Container className="d-flex">

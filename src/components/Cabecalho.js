@@ -1,4 +1,4 @@
-import { Col, Container, Row, Image, Button } from "react-bootstrap";
+import { Col, Container, Row, Image } from "react-bootstrap";
 import Linkedin from '../images/linkedin.svg'
 import Email from '../images/email.svg'
 import Git from '../images/git.svg'
@@ -9,7 +9,7 @@ const Cabecalho = () => {
     return(
         <Container className="d-flex flex-column justify-content-center align-items-center">
             <h1 className="mt-4">Thales Alfredo Borsatto Ondas</h1>
-            <h2 className="mb-5">DESENVOLVEDOR FULL STACK</h2>
+            <h2 className="mb-5 text-uppercase">Desenvolvedor Full Stack</h2>
             <Container className="d-flex">
             <Col className="d-flex justify-content-center">
                 <ul>
