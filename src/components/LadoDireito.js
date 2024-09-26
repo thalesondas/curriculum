@@ -1,10 +1,13 @@
-import { Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const LadoDireito = (props) => {
     return(
-        <Button onClick={props.passDarkMode}>
-            Dark Mode
-        </Button>
+        <Container className="mt-5">
+            <input className="input" id="dark-mode" type="checkbox" name="darkmode" onClick={props.passDarkMode}/>
+            <label className="label mt-5 ms-4" for="dark-mode">
+                <span class="circulo"></span>
+            </label>
+        </Container>
     )
 }
 
