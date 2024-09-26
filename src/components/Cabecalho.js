@@ -9,8 +9,8 @@ const Cabecalho = () => {
     return(
         <Container className="d-flex flex-column justify-content-center align-items-center">
             <h1 className="mt-4">Thales Alfredo Borsatto Ondas</h1>
-            <h2 className="mb-5 text-uppercase">Desenvolvedor Full Stack</h2>
-            <Container className="d-flex">
+            <h2 className="mb-4 text-uppercase">Desenvolvedor Full Stack</h2>
+            <Container className="mt-2 d-flex">
             <Col className="d-flex justify-content-center">
                 <ul>
                     <li className="mb-3 sem-bolinha">
@@ -23,7 +23,7 @@ const Cabecalho = () => {
                     </li>
                 </ul>
             </Col>
-            <Col className="d-flex justify-content-center">
+            <Col className="d-flex justify-content-start">
                 <ul>
                     <li className="mb-3 sem-bolinha">
                         <Image className="img-svg" src={Linkedin} alt="LinkedIn" />
