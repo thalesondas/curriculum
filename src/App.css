@@ -1,6 +1,13 @@
 :root{
   --cor-primaria: #173945;
   --cor-background: white;
+  --filter: invert(15%) sepia(31%) saturate(1173%) hue-rotate(150deg) brightness(91%) contrast(85%);
+}
+
+.dark-mode {
+  --cor-primaria: rgb(233, 233, 233);
+  --cor-background: #222222;
+  --filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(280deg) brightness(105%) contrast(101%);
 }
 
 .page{
@@ -10,18 +17,18 @@
   font-family: Arial, Helvetica, sans-serif;
   color: var(--cor-primaria);
   font-weight: bold;
+  transition: background-color 1.2s ease, color 1.2s ease;
 }
 
 .inner-page{
   background-color: var(--cor-background);
   min-height: 100vh;
   width: 785px;
-  box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.2);
 }
 
 .btn-custom{
-  background-color: var(--cor-primaria) !important;
-  border: var(--cor-primaria) !important;
+  background-color: #173945 !important;
+  border: #173945 !important;
   width: 140px;
   box-shadow: 4px 4px 6px 1px rgba(0, 0, 0, 0.4);
 }
@@ -35,7 +42,7 @@
 
 h1{
   font-weight: 900;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 2px var(--cor-primaria);
 }
 
 h2{
@@ -62,6 +69,9 @@ p,
 li{
   font-size: 1.1rem;
 }
+a{
+  transition: color 1.2s ease;
+}
 
 .letra-cinza{
   color: #8491a0;
@@ -79,5 +89,5 @@ li{
 .img-svg{
   margin-right: 6px;
   width: 45px;
-  filter: invert(15%) sepia(31%) saturate(1173%) hue-rotate(150deg) brightness(91%) contrast(85%);
+  filter: var(--filter);
 }

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap"
 import LadoDireito from "./components/LadoDireito";
 import LadoEsquerdo from "./components/LadoEsquerdo";
@@ -13,12 +13,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
+  const [darkMode, setDarkMode] = useState(false)
+
+  const toggleDarkMode = () => {
+    setDarkMode(previousMode => !previousMode)
+  }
+
   useEffect(() => {
     document.title = 'Curriculum Vitae - Thales Ondas';
   }, []);
 
   return (
-    <Container className="page d-flex justify-content-between align-items center">
+    <Container className={`page d-flex justify-content-between align-items center ${darkMode ? 'dark-mode' : ''}`}>
         <div style={{ width: '22%' }}>
           <LadoEsquerdo />
         </div>
@@ -31,7 +37,7 @@ function App() {
           <Formacao />
         </div>
         <div style={{ width: '22%' }}>
-          <LadoDireito />
+          <LadoDireito passDarkMode={toggleDarkMode} />
         </div>
     </Container>
   );

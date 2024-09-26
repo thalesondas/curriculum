@@ -1,6 +1,10 @@
-const LadoDireito = () => {
+import { Button } from "react-bootstrap";
+
+const LadoDireito = (props) => {
     return(
-        <h1>Dark Mode Toggle</h1>
+        <Button onClick={props.passDarkMode}>
+            Dark Mode
+        </Button>
     )
 }
 
