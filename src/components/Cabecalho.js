@@ -27,13 +27,13 @@ const Cabecalho = () => {
                 <ul>
                     <li className="mb-3 sem-bolinha">
                         <Image className="img-svg" src={Linkedin} alt="LinkedIn" />
-                        <a className="custom-link" href="linkedin.com/in/thales-ondas" target="_blank" rel="noopener noreferrer">
+                        <a className="custom-link" href="https://linkedin.com/in/thales-ondas" target="_blank" rel="noopener noreferrer">
                             linkedin.com/in/thales-ondas
                         </a>
                     </li>
                     <li className="sem-bolinha me-5">
                         <Image className="img-svg" src={Git} alt="Git" />
-                        <a className="custom-link" href="github.com/thalesondas" target="_blank" rel="noopener noreferrer">
+                        <a className="custom-link" href="https://github.com/thalesondas" target="_blank" rel="noopener noreferrer">
                             github.com/thalesondas
                         </a>
                     </li>
@@ -43,7 +43,9 @@ const Cabecalho = () => {
             <Row>
                 <li className="sem-bolinha">
                     <Image className="img-svg" src={Site} alt="Site" />
-                    Link do Site
+                    <a className="custom-link" href="https://portfolio-thalesondas.netlify.app" target="_blank" rel="noopener noreferrer">
+                        portfolio-thalesondas.netlify.app
+                    </a>
                 </li>
             </Row>
         </Container>

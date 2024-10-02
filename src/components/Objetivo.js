@@ -8,8 +8,9 @@ const Objetivo = () => {
                 <hr />
             </Container>
             <p className="text-center" style={{ lineHeight: '1.3rem'}}>
-                Aplicar minhas habilidades em desenvolvimento de software em uma posição que<br/>
-                permita contribuir para o sucesso da empresa. Busco oportunidades como:
+                Estagiar para aplicar minhas habilidades em desenvolvimento de software<br />
+                em uma posição que permita contribuir para o sucesso da empresa.<br />
+                Busco oportunidades como:
             </p>
             <Container className="d-flex">
                 <Col className="ms-5 d-flex justify-content-start"><li>Desenvolvedor Full Stack</li></Col>

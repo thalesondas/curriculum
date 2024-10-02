@@ -6,7 +6,7 @@ const LadoEsquerdo = () => {
             <p className="p-lado-esquerdo text-center py-2 px-3">
                 Este "site" foi feito sem responsividade de propósito para simular o currículo em PDF, não funcionará corretamente em telas menores.
             </p>
-            <Button className="btn-custom mt-3" href="/CV.pdf" download="Curriculum Vitae - Thales Ondas">
+            <Button className="btn-custom mt-3" href="/CV_Fullstack.pdf" download="Curriculum Vitae - Thales Ondas">
                 Download do PDF do currículo
             </Button>
         </Container>

@@ -27,7 +27,7 @@ const Competencias = () => {
             <Col xs={4}>
                 <ul>
                     <li>Bootstrap</li>
-                    <li>Python</li>
+                    <li>Redux Toolkit</li>
                     <li>Java</li>
                     <li>Inglês Avançado</li>
                 </ul>
