@@ -13,12 +13,14 @@ const Competencias = () => {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>React.js</li>
+                    <li>React</li>
+                    <li>Node.js</li>
                 </ul>
             </Col>
             <Col xs={5}>
                 <ul>
-                    <li>Node.js</li>
+                    <li>Bootstrap</li>
+                    <li>Redux Toolkit</li>
                     <li>PostgreSQL</li>
                     <li>MongoDB</li>
                     <li>Versionamento Git/GitHub</li>
@@ -26,9 +28,9 @@ const Competencias = () => {
             </Col>
             <Col xs={4}>
                 <ul>
-                    <li>Bootstrap</li>
-                    <li>Redux Toolkit</li>
                     <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>JPA / Hibernate</li>
                     <li>Inglês Avançado</li>
                 </ul>
             </Col>
