@@ -8,11 +8,12 @@ const Resumo = () => {
                 <hr />
             </Container>
             <p className="text-center" style={{ whiteSpace: 'pre-wrap', lineHeight: '1.4rem' }}>
-                Estou me formando em Análise e Desenvolvimento de Sistemas pela UTFPR de<br/>
-                Cornélio Procópio, onde adquiri conhecimento em várias linguagens de<br/>
-                programação, bancos de dados, bibliotecas e frameworks, etc. Além de aprimorar<br/>
-                alguns desses conhecimentos e aprender novas tecnologias por meio de cursos<br/>
-                online gratuitos e da plataforma Udemy.
+                Desenvolvedor de software formado em Análise e Desenvolvimento de Sistemas pela UTFPR, com experiência no<br/>
+                desenvolvimento de aplicações web e APIs em ambientes produtivos. Atuação com JavaScript e TypeScript em soluções<br/>
+                front-end (React/Next.js, Vue.js) e back-end (NestJS e Django/DRF), com persistência de dados em PostgreSQL e utilização<br/>
+                de TypeORM. Experiência com testes automatizados (testes unitários e de integração com Jest e unittest, e BDD com Gherkin)<br/>
+                e noções em DevOps, incluindo containerização com Docker, Kubernetes, pipelines de CI/CD com GitHub Actions e deploy na<br/>
+                DigitalOcean.
             </p>
         </Container>
     )

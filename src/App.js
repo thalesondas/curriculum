@@ -3,8 +3,8 @@ import { Container } from "react-bootstrap"
 import LadoDireito from "./components/LadoDireito";
 import LadoEsquerdo from "./components/LadoEsquerdo";
 import Cabecalho from "./components/Cabecalho";
-import Objetivo from "./components/Objetivo";
 import Resumo from "./components/Resumo";
+import Experiencia from "./components/Experiencia";
 import Competencias from "./components/Competencias";
 import Certificados from "./components/Certificados";
 import Formacao from "./components/Formacao";
@@ -30,8 +30,8 @@ function App() {
         </div>
         <div className="inner-page">
           <Cabecalho />
-          <Objetivo />
           <Resumo />
+          <Experiencia />
           <Competencias />
           <Certificados />
           <Formacao />

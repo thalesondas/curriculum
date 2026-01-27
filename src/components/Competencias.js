@@ -8,30 +8,30 @@ const Competencias = () => {
                 <hr />
             </Container>
             <Container className="d-flex ms-3">
-            <Col xs={3}>
+            <Col xs={4}>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                </ul>
-            </Col>
-            <Col xs={5}>
-                <ul>
-                    <li>Bootstrap</li>
-                    <li>Redux Toolkit</li>
-                    <li>PostgreSQL</li>
-                    <li>MongoDB</li>
-                    <li>Versionamento Git/GitHub</li>
+                    <li className="fw-bold">Principais Hard Skills</li>
+                    <li>Typescript, JavaScript, Python</li>
+                    <li>React, Vue.js, HTML, CSS</li>
+                    <li>NestJS, Node.js, Django/DRF</li>
                 </ul>
             </Col>
             <Col xs={4}>
                 <ul>
-                    <li>Java</li>
-                    <li>Spring Boot</li>
-                    <li>JPA / Hibernate</li>
-                    <li>Inglês Avançado</li>
+                    <br/>
+                    <li>PostgreSQL, TypeORM</li>
+                    <li>Git, GitHub, Docker, Kubernetes</li>
+                    <li>GitHub Actions, DigitalOcean</li>
+                    <li>Jest, unittest, BDD (Gherkin)</li>
+                </ul>
+            </Col>
+            <Col xs={4}>
+                <ul>
+                    <li className="fw-bold">Outros</li>
+                    <li>Scrum</li>
+                    <br/>
+                    <li className="fw-bold">Idiomas</li>
+                    <li>Inglês (B2-C1)</li>
                 </ul>
             </Col>
             </Container>

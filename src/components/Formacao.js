@@ -7,7 +7,7 @@ const Formacao = () => {
                 <h3 className="ms-3">Formação Acadêmica</h3>
                 <hr />
             </Container>
-            <li className="me-5" style={{ textAlign: 'center' }}>Graduação em Análise e Desenvolvimento de Sistemas (2021-2025)<br />Universidade Tecnológica Federal do Paraná</li>
+            <li className="me-5" style={{ textAlign: 'center' }}>Graduação em Análise e Desenvolvimento de Sistemas (2021-2025)<br />Universidade Tecnológica Federal do Paraná (UTFPR) Cornélio Procópio - PR</li>
         </Container>
     )
 }
