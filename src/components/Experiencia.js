@@ -4,7 +4,7 @@ const Experiencia = () => {
     return (
         <Container className="mt-1">
             <Container className="ms-3 d-flex flex-column align-items-start">
-                <h3 className="ms-3">Experiência Profissional</h3>
+                <h3>Experiência Profissional</h3>
                 <hr />
             </Container>
             
@@ -17,7 +17,7 @@ const Experiencia = () => {
                     <Col>DigitalSys Tecnologia</Col>
                     <Col className="text-end">Remoto</Col>
                 </Row>
-                <ul className="mt-2" style={{ fontSize: '0.9rem', lineHeight: '1.2rem' }}>
+                <ul className="mt-2" style={{ fontSize: '0.8rem', lineHeight: '1.1rem' }}>
                     <li>Continuidade das atividades desempenhadas no período de estágio, com maior autonomia e responsabilidade nas entregas.</li>
                     <li>Desenvolvimento e manutenção de APIs REST e integração de WebSockets com decorators do NestJS, viabilizando comunicação em tempo real.</li>
                     <li>Desenvolvimento de um software de estatísticas, utilizando React/Next.js no frontend e Django (Django REST Framework) no backend, com aplicação de testes BDD (Gherkin).</li>
@@ -37,7 +37,7 @@ const Experiencia = () => {
                     <Col>DigitalSys Tecnologia</Col>
                     <Col className="text-end">Remoto</Col>
                 </Row>
-                <ul className="mt-2" style={{ fontSize: '0.9rem', lineHeight: '1.2rem' }}>
+                <ul className="mt-2" style={{ fontSize: '0.8rem', lineHeight: '1.1rem' }}>
                     <li>Desenvolvimento full stack de aplicação voltada à área da saúde, com APIs REST em NestJS e frontend em Vue.js + Ionic.</li>
                     <li>Implementação de autenticação segura com JWT e controle de permissões baseado em roles, fortalecendo a segurança da versão mobile.</li>
                     <li>Estruturação e execução de testes unitários com Jest, elevando a cobertura e a estabilidade das entregas.</li>

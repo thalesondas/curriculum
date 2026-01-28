@@ -4,7 +4,7 @@ const Objetivo = () => {
     return(
         <Container className="mt-3 d-flex flex-column align-items-center">
             <Container className="ms-3 d-flex flex-column justify-content-start align-items-start">
-                <h3 className="ms-3">Objetivo</h3>
+                <h3>Objetivo</h3>
                 <hr />
             </Container>
             <p className="text-center" style={{ lineHeight: '1.3rem'}}>

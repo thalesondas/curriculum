@@ -4,7 +4,7 @@ const Competencias = () => {
     return(
         <Container className="mt-1">
             <Container className="ms-3 d-flex flex-column justify-content-start">
-                <h3 className="ms-3">Principais Competências / Idiomas</h3>
+                <h3>Principais Competências / Idiomas</h3>
                 <hr />
             </Container>
             <Container className="d-flex ms-3">
