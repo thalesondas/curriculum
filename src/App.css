@@ -40,14 +40,13 @@
 }
 
 h1{
+  font-size: 2rem !important;
   font-weight: 900;
-  text-shadow: 1px 1px 2px var(--cor-primaria);
 }
 
 h2{
   font-size: 1.0rem !important;
-  letter-spacing: 3.5px !important;
-  font-weight: 550 !important;
+  color: #808080 !important;
 }
 
 h3{
@@ -85,8 +84,7 @@ a{
 }
 
 .custom-link{
-  text-decoration: none;
-  color: var(--cor-primaria);
+  color: #0000EE !important;
 }
 
 .img-svg{
