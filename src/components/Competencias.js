@@ -1,39 +1,22 @@
-import { Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Competencias = () => {
     return(
-        <Container className="mt-1">
+        <Container className="mt-5">
             <Container className="ms-3 d-flex flex-column justify-content-start">
-                <h3>Principais Competências / Idiomas</h3>
+                <h3>Principais Hard Skills</h3>
                 <hr />
             </Container>
-            <Container className="d-flex ms-3">
-            <Col xs={4}>
+            <Container className="d-flex">
                 <ul>
-                    <li className="fw-bold">Principais Hard Skills</li>
                     <li>Typescript, JavaScript, Python</li>
                     <li>React, Vue.js, HTML, CSS</li>
-                    <li>NestJS, Node.js, Django/DRF</li>
-                </ul>
-            </Col>
-            <Col xs={4}>
-                <ul>
-                    <br/>
+                    <li>NestJS, Node.js, Django (com Django REST Framework)</li>
                     <li>PostgreSQL, TypeORM</li>
-                    <li>Git, GitHub, Docker, Kubernetes</li>
-                    <li>GitHub Actions, DigitalOcean</li>
-                    <li>Jest, unittest, BDD (Gherkin)</li>
-                </ul>
-            </Col>
-            <Col xs={4}>
-                <ul>
-                    <li className="fw-bold">Outros</li>
+                    <li>Git, GitHub, Docker, Kubernetes, GitHub Actions, DigitalOcean</li>
+                    <li>Testes unitários e testes de integração (Jest, unittest) e BDD (Gherkin)</li>
                     <li>Scrum</li>
-                    <br/>
-                    <li className="fw-bold">Idiomas</li>
-                    <li>Inglês (B2-C1)</li>
                 </ul>
-            </Col>
             </Container>
         </Container>
     )

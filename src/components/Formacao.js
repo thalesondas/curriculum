@@ -1,13 +1,20 @@
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Formacao = () => {
     return(
-        <Container className="mb-4">
+        <Container className="mt-5" style={{ fontSize: '0.8rem' }}>
             <Container className="ms-3 d-flex flex-column">
                 <h3>Formação Acadêmica</h3>
                 <hr />
             </Container>
-            <li className="me-5" style={{ textAlign: 'center' }}>Graduação em Análise e Desenvolvimento de Sistemas (2021-2025)<br />Universidade Tecnológica Federal do Paraná (UTFPR) Cornélio Procópio - PR</li>
+            <Row className="ms-3 me-4 fw-bold">
+                <Col>Análise e Desenvolvimento de Sistemas</Col>
+                <Col className="text-end">Mar 2021 - Jul 2025</Col>
+            </Row>
+            <Row className="ms-3 me-4">
+                <Col>Universidade Tecnológica Federal do Paraná (UTFPR)</Col>
+                <Col className="text-end">Cornélio Procópio - PR</Col>
+            </Row>
         </Container>
     )
 }

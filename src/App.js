@@ -8,6 +8,7 @@ import Experiencia from "./components/Experiencia";
 import Competencias from "./components/Competencias";
 import Certificados from "./components/Certificados";
 import Formacao from "./components/Formacao";
+import Idiomas from "./components/Idiomas";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 
@@ -33,8 +34,9 @@ function App() {
           <Resumo />
           <Experiencia />
           <Competencias />
-          <Certificados />
           <Formacao />
+          <Certificados />
+          <Idiomas />
         </div>
         <div style={{ width: '22%' }}>
           <LadoDireito passDarkMode={toggleDarkMode} />
